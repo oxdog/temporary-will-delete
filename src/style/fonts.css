@@ -1,0 +1,88 @@
+/* Space Gortesk ------------------------------------------------ */
+
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/src/assets/fonts/SpaceGrotesk/space-grotesk-variable.woff2')
+    format('woff2');
+}
+
+.space-grotesk-bold {
+  font-family: 'Space Grotesk';
+  font-weight: 700;
+}
+
+.space-grotesk-medium {
+  font-family: 'Space Grotesk';
+  font-weight: 500;
+}
+
+.space-grotesk-regular {
+  font-family: 'Space Grotesk';
+  font-weight: 400;
+}
+
+.space-grotesk-light {
+  font-family: 'Space Grotesk';
+  font-weight: 300;
+}
+
+/* Space Mono --------------------------------------------------- */
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url('/src/assets/fonts/SpaceMono/SpaceMono-Regular.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url('/src/assets/fonts/SpaceMono/SpaceMono-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url('/src/assets/fonts/SpaceMono/SpaceMono-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url('/src/assets/fonts/SpaceMono/SpaceMono-BoldItalic.woff2')
+    format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+.space-mono-regular {
+  font-family: 'Space Mono';
+  font-weight: normal;
+}
+
+.space-mono-italic {
+  font-family: 'Space Mono';
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold {
+  font-family: 'Space Mono';
+  font-weight: 700;
+}
+
+.space-mono-bold-italic {
+  font-family: 'Space Mono';
+  font-weight: 700;
+  font-style: italic;
+}
